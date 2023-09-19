@@ -10,7 +10,7 @@ import re
 
 RAPIDAPI_KEY = os.environ["RAPIDAPI_KEY"]
 target_areas = ["tokyo", "chiba", "saitama", "kanagawa"]
-target_stations = ["新宿", "東京", "渋谷", "品川"]
+target_stations = ["新宿", "東京", "渋谷"]
 time_limit = 30 # 1 ~ 60
 rent_limit = 13
 output_top = 10
